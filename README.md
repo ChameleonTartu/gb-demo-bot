@@ -13,3 +13,7 @@ As this bot is command line Kotlin app, you will need to pass token as a paramet
 ### What is the purpose of this project?
 
 Teach people how to start making bots, show basic capabilities of Telegram.
+
+### What is the name of the bot?
+
+@gb-demo-bot
