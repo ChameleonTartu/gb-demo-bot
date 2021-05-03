@@ -15,7 +15,6 @@ class GbProcessor {
         sendMessage.replyMarkup = ReplyKeyboardRemove(true)
 
         println("Message: $message")
-
         val command = message.text
         if (command != null) {
             when {

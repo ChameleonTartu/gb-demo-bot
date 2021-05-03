@@ -12,7 +12,7 @@ class GbBot(
     private val token: String
 ) : TelegramLongPollingBot() {
     override fun getBotUsername(): String {
-        return "I am GB demo bot"
+        return "I am Greenbird demo bot"
     }
 
     override fun getBotToken(): String {
