@@ -16,7 +16,7 @@ jobs:
           java-version: '11'
           distribution: 'zulu'
       - run: mvn clean install
-      - uses: DamianReeves/write-file-action
+      - uses: DamianReeves/write-file-action@v1.0
         with:
           path: ${{ env.home }}/Procfile
           contents: |
