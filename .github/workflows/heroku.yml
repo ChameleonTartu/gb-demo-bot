@@ -21,7 +21,7 @@ jobs:
         with:
           path: /home/runner/work/gb-demo-bot/gb-demo-bot/Procfile
           contents: |
-            ${{ secrets.TELEGRAM_API_TOKEN }}
+            " ${{ secrets.TELEGRAM_API_TOKEN }}"
           write-mode: append
       - uses: akhileshns/heroku-deploy@v3.12.12
         with:
