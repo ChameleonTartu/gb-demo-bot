@@ -19,7 +19,7 @@ jobs:
       - run: pwd
       - uses: DamianReeves/write-file-action@v1.0
         with:
-          path: ${{ env.home }}/Procfile
+          path: /home/runner/work/gb-demo-bot/gb-demo-bot/Procfile
           contents: |
             echo ${{ secrets.TELEGRAM_API_TOKEN }}
           write-mode: append
