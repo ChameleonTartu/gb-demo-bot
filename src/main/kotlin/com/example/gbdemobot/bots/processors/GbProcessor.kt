@@ -59,7 +59,7 @@ class GbProcessor {
                     sendMessage.text = "Greenbird was founded as a Consultancy firm. If you want to collaborate with us, write to: info@greenbird.com"
                 }
                 command.startsWith("/blog") -> {
-                    sendMessage.text = "We call it News, but it is practically the same: https://www.greenbird.com/news"
+                    sendMessage.text = "blog"
                 }
                 command.startsWith("/photo") -> {
                     sendMessage.text = "photo"
