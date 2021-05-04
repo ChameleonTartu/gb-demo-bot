@@ -1,1 +1,0 @@
-worker: java $JAVA_OPTS -cp target/classes:target/dependency/*:target/gb-demo-bot-1.0-SNAPSHOT.jar com.example.gbdemobot.ApplicationKt
