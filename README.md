@@ -43,5 +43,5 @@ apt install -y docker.io
 docker stop gb-demo-bot-app
 docker rm gb-demo-bot-app
 docker build -t gb-demo-bot:1.0 .
-docker run -d -e TOKEN=$TOKEN gb-demo-bot:1.0 --name gb-demo-bot-app
+docker run -d -e TOKEN=$TOKEN --name gb-demo-bot-app gb-demo-bot:1.0 
 ```

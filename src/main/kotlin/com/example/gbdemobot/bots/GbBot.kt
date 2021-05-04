@@ -38,9 +38,13 @@ class GbBot(
                 }
                 "photo" -> {
                     val ind = (0..2).shuffled().first()
-                    val images = listOf("thorsten.jpeg", "marius.jpeg", "liping.jpeg")
-                    val photo = SendPhoto(message.chatId, InputFile(File("src/main/resources/img/${images[ind]}")))
-                    execute(photo).messageId
+                    val images = listOf(
+                        "https://content.greenbird.com/_430x430_crop_top-center_90_none/thorsten.jpg",
+                        "https://content.greenbird.com/_430x430_crop_top-center_90_none/marius.jpg",
+                        "https://content.greenbird.com/_960x714_crop_top-center_75_none/greenbird_office_0554.jpg"
+                    )
+                    message.text = images[ind]
+                    execute(message)
                 }
                 else -> {
                     execute(message)
