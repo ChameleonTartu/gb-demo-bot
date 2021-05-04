@@ -7,7 +7,6 @@ import org.slf4j.LoggerFactory
 import org.telegram.telegrambots.meta.TelegramBotsApi
 import org.telegram.telegrambots.meta.exceptions.TelegramApiException
 import org.telegram.telegrambots.updatesreceivers.DefaultBotSession
-import java.lang.Exception
 
 
 val log: Logger = LoggerFactory.getLogger("main")
@@ -36,5 +35,3 @@ fun main(args: Array<String>) {
         }
     }
 }
-
-
